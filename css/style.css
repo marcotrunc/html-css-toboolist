@@ -1,3 +1,26 @@
 body{
-    background-color: aqua;
+    background-color:lightgrey;
+    margin: 0;
+}
+
+/* intestazione */
+header{
+    background-color: white;
+    height: 80px;
+    line-height: 80px;
+    
+}
+
+#logo-boolean{
+    height: 60px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#title{
+    display: inline;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 800;
 }
