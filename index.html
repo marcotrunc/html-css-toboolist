@@ -21,10 +21,11 @@
     
     <div class="container angular-border">
         <!-- corpo centrale -->
-        <main>
+        <main> 
 
             <!-- sezione tasti -->
             <section id="main-commands"> 
+                
                 <a href="#" class="add add-task angular-border">
                     <span>Add Task</span>
                 </a>
@@ -32,11 +33,12 @@
                     <span>Add Section</span>
                 </a>
             </section>
-                <hr />
+                <hr id="line"/>
             
-                <!-- nuove task -->
+        <!-- nuove task -->
+          <div class="container-align">  
             <section>
-                <h3 class="secondary-title">&triangledown;New Task</h3>
+                <h3 class="secondary-title"><span class="triangle">&#9660;</span> New Task</h3>
                 <ul class="list-style">
                     <li>&#9989;Quarterly Newsletter
                         <a href="#">
@@ -48,7 +50,7 @@
 
             <!-- Cose da fare oggi -->
             <section>
-                <h3 class="secondary-title new-border">&triangledown;Today</h3>
+                <h3 class="secondary-title new-border"><span class="triangle">&#9660;</span> Today</h3>
                 <ul class="list-style">
                     <li>&#9989;Recruiting blog post
                         <a href="#">
@@ -75,7 +77,7 @@
             
             <!-- Cose Imminenti -->
             <section>
-                <h3 class="secondary-title new-border">&triangledown;Upcoming</h3>
+                <h3 class="secondary-title new-border"><span class="triangle">&#9660;</span> Upcoming</h3>
                 <ul class="list-style">
                     <li>&#10060;Schedule Meeting with Alex
                         <a href="#">
@@ -99,9 +101,10 @@
                     </li>
                 </ul>
             </section>
-    
+          </div>
+        </div>
     </main>
-</div>
+
     
 </body>
 </html>

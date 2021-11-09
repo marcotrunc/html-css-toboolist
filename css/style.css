@@ -17,11 +17,19 @@ body{
     background-color:white;
     border-bottom: 100px solid #f6f8f9 ;
 }
+.container-align{
+    margin-left: 25px;
+}
+
 
 .secondary-title{
     
-    margin:40px 0px 0px 20px ;
+    margin-top:40px;
 }
+.triangle{
+    font-size: 10px;
+}
+
 
 .angular-border{
     border-radius: 5px;
@@ -30,13 +38,18 @@ body{
 .list-style{
     list-style-type: none;
     padding: 0;
-    margin-left: 20px; 
+   
 }
 
 li{
     font-size: 16px;
     display: block;
     height: 33px;
+    
+}
+
+.new-border{
+    margin-top: 25px;
 }
 
 /* intestazione */
@@ -60,8 +73,9 @@ header{
     font-weight: 800;
 }
 
-hr{
-    color:#9a8e86;
+#line{
+    background-color: #f6f8f9;
+    border-top: 1px solid #f6f8f9;
 }
 
 
@@ -80,7 +94,7 @@ hr{
 }
 .add-task{
     margin-left:25px;
-    background-color:#1e90ff ;
+    background-color:#45abea;
     display: inline-block;
     color:#fff;
 }
@@ -102,9 +116,8 @@ hr{
     line-height:22px ;
     font-size:10px;
     color: white;
-    background-color:#1e90ff ;
+    background-color:#45abea;
     border-radius: 22px;
-
 }
 
 
@@ -134,3 +147,4 @@ hr{
 .green{
     background-color:#b0c926;
 }
+
