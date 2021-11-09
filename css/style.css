@@ -1,7 +1,11 @@
+html{
+    background-color: black;
+}
 body{
-    background-color:lightgrey;
-    margin: 0;
+    background-color:#f6f8f9;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
     
 }
 
@@ -14,31 +18,46 @@ body{
 }
 
 .secondary-title{
-    margin-left:20px;
+    /* margin-left:20px;
     margin-top:40px;
+    margin-bottom: 0px; */
+    margin:40px 0px 0px 20px ;
 }
-
+/* .newborder{
+    border-bottom: 25px;
+} */
 .angular-border{
     border-radius: 5px;
 }
 
+.list-style{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px; 
+}
+
+li{
+    font-size: 16px;
+    display: block;
+    height: 33px;
+}
 
 /* intestazione */
 header{
     background-color: white;
-    height: 80px;
-    line-height: 80px;
+    height: 65px;
+    
     
 }
 
 #logo-boolean{
-    height: 60px;
     vertical-align: middle;
     margin-left: 10px;
 }
 
 #title{
     display: inline;
+    line-height: 65px;
     vertical-align: middle;
     font-size: 38px;
     font-weight: 800;
@@ -49,7 +68,8 @@ hr{
 }
 
 
-/* stile dei tasti */
+/* stile dei tasti principali */
+
 .add{
     width: 80px;
     height: 25px;
@@ -75,5 +95,19 @@ hr{
     color:#9a8e86;
     border:1px solid #9a8e86;   
 }
+
+/* stile dei  tasti secondari */
+.task{
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+    margin-top: 10px;
+    text-align: center;
+    line-height:22px ;
+    font-size:10px;
+    background-color:#1e90ff ;
+    border-radius: 22px;
+}
+
 
 
