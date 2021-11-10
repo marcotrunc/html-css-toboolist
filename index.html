@@ -13,6 +13,7 @@
 
 <body>
     <!-- intestazione della pagina -->
+    
     <header>
       <img id="logo-boolean" src="img/Logo.png" alt="Logo di Boolean">
       <h1 id="title">Toboolist</h1> 
@@ -20,27 +21,28 @@
     
     <div class="container angular-border">
             <!-- sezione tasti -->
-            <section id="main-commands"> 
-                <a href="#" class="add add-task angular-border">
+            <div id="main-commands"> 
+                <a href="#" class="add angular-border">
                   <span>Add Task</span>
                 </a>
-                <a href="#" class="add add-section angular-border">
+                <a href="#" class="add angular-border">
                   <span>Add Section</span>
                 </a>
-                </section>
+            </div>
                 
             <hr id="line"/>
         <!-- corpo centrale -->
-        <main>
+    <main>
 
-          <!-- nuove task -->
-          <div class="container-align">  
+        <!-- nuove task -->
+        <div class="container-align">  
             <section>
                 <h3 class="secondary-title"><span class="triangle">&#9660;</span>New Task</h3>
                 <ul class="list-style">
                     <li> 
-                        <span class="bg-circle done">&check;</span> Quarterly Newsletter
-                        <a href="#"><span class="task ">Editorial</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Quarterly Newsletter</h4>
+                        <a href="#"><span class="tag lightblue">Editorial</span></a>
                     </li>
                 </ul>         
             </section>        
@@ -52,20 +54,24 @@
                 <h3 class="secondary-title new-border"><span class="triangle">&#9660;</span> Today</h3>
                 <ul class="list-style">
                     <li>
-                        <span class="bg-circle done">&check;</span> Recruiting blog post
-                        <a href="#"><span class="task lightblue">Editorial</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Recruiting blog post</h4>
+                        <a href="#"><span class="tag lightblue">Editorial</span></a>
                     </li>
                     <li> 
-                        <span class="bg-circle done">&check;</span> Mobile app launch
-                        <a href="#"><span class="task violet">Q1-goals</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Mobile app launch</h4>
+                        <a href="#"><span class="tag violet">Q1-goals</span></a>
                     </li>
                     <li>
-                        <span class="bg-circle undone">&cross;</span> Interview John H.
-                        <a href="#"><span class="task lightgreen">Recruiting</span></a>
+                        <span class="bg-circle undone">&cross;</span> 
+                        <h4>Interview John H.</h4>
+                        <a href="#"><span class="tag lightgreen">Recruiting</span></a>
                     </li>
                     <li>
-                        <span class="bg-circle done">&check;</span> Summit update to mobile storefronts
-                        <a href="#"><span class="task orange">Mobile</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Summit update to mobile storefronts</h4>
+                        <a href="#"><span class="tag orange">Mobile</span></a>
                     </li>
                 </ul>   
             </section>
@@ -75,28 +81,32 @@
                 <h3 class="secondary-title new-border"><span class="triangle">&#9660;</span> Upcoming</h3>
                 <ul class="list-style">
                     <li>
-                        <span class="bg-circle undone">&cross;</span> Schedule Meeting with Alex
-                        <a href="#"><span class="task lightgreen">Recruiting</span></a>
+                        <span class="bg-circle undone">&cross;</span> 
+                        <h4>Schedule Meeting with Alex</h4>
+                        <a href="#"><span class="tag lightgreen">Recruiting</span></a>
                     </li>
                     <li>
-                        <span class="bg-circle done">&check;</span> Homepage refresh
-                        <a href="#"><span class="task pink">Website</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Homepage refresh</h4>
+                        <a href="#"><span class="tag pink">Website</span></a>
                     </li>
                     <li>
-                        <span class="bg-circle undone">&cross;</span> Onboard new Sales team members
-                        <a href="#"><span class="task green">Sales</span></a>
+                        <span class="bg-circle undone">&cross;</span> 
+                        <h4>Onboard new Sales team members</h4>
+                        <a href="#"><span class="tag green">Sales</span></a>
                     </li>
                     <li>
-                        <span class="bg-circle done">&check;</span> Review editorial character
-                        <a href="#"><span class="task orange">Editorial</span></a>
+                        <span class="bg-circle done">&check;</span> 
+                        <h4>Review editorial character</h4>
+                        <a href="#"><span class="tag orange">Editorial</span></a>
                     </li>
                 </ul>
             </section>
-          </div>
+        </div>
           
-            
-        </div> 
-    </main>
+    </main>        
+    </div> 
+    
 </body>
 </html>
 
