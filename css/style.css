@@ -21,31 +21,25 @@ body{
     margin-left: 25px;
 }
 
-
-.secondary-title{
-    
-    margin-top:40px;
-}
-.triangle{
-    font-size: 10px;
-}
-
-
 .angular-border{
     border-radius: 5px;
 }
 
-.list-style{
-    list-style-type: none;
-    padding: 0;
-   
-}
 
+/* style della lista */
 li{
     font-size: 16px;
     display: block;
     height: 33px;
     
+}
+.li-text{
+    vertical-align: middle;
+}
+
+.list-style{
+    list-style-type: none;
+    padding: 0;
 }
 
 .new-border{
@@ -78,18 +72,26 @@ header{
     border-top: 1px solid #f6f8f9;
 }
 
+/* intestazione secondaria */
+.triangle{
+    font-size: 10px;
+}
+
+.secondary-title{
+    
+    margin-top:40px;
+}
 
 /* stile dei tasti principali */
 
 .add{
     width: 80px;
     height: 25px;
-    margin-top: 10px;
     text-align: center;
     line-height:25px ;
     vertical-align: middle;
     font-size: 14px;
-    padding: 1px;
+    padding: 5px 10px;
     text-decoration:none;
 }
 .add-task{
@@ -148,3 +150,29 @@ header{
     background-color:#b0c926;
 }
 
+.bg-circle{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #f6f8f9;
+    border:1px solid transparent;
+    border-radius:50%;
+    text-align:center;
+    vertical-align:middle;
+    font-size:10px;
+
+}
+
+.done{
+    color: green;
+    border-color:green;
+}
+
+.undone{
+    color:red;
+    border-color:red ;
+}
+
+li * {
+    vertical-align: middle;
+    {}
